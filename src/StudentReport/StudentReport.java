@@ -13,4 +13,16 @@ public class StudentReport {
     public void mostrarReporte() {
         System.out.println("Reporte de estudiantes");
     }
+
+    public void mostrarReporteDetallado(String nombreEstudiante, double promedio) {
+        System.out.println("--- Reporte Detallado ---");
+        System.out.println("Estudiante: " + nombreEstudiante);
+        System.out.println("Promedio: " + promedio);
+
+        if (promedio >= 13) {
+            System.out.println("Estado: Aprobado");
+        } else {
+            System.out.println("Estado: Desaprobado");
+        }
+    }
 }
