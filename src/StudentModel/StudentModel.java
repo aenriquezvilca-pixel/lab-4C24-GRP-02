@@ -10,13 +10,7 @@ package StudentModel;
  */
 public class StudentModel {
 
-    private String nombre;
-
-    public StudentModel(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getNombre() {
-        return nombre;
+    public void mostrar() {
+        System.out.println("Student Model actualizado");
     }
 }

@@ -10,6 +10,6 @@
 public class StudentController {
 
     public void controller() {
-        System.out.println("StudentController actualizado");
+        System.out.println("Cambio realizado por el Responsable");
     }
 }
