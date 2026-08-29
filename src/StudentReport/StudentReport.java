@@ -18,6 +18,7 @@ public class StudentReport {
         System.out.println("--- Reporte Detallado ---");
         System.out.println("Estudiante: " + nombreEstudiante);
         System.out.println("Promedio: " + promedio);
+        System.out.println("Promedio: " + promedio);
 
         if (promedio >= 13) {
             System.out.println("Estado: Aprobado");
