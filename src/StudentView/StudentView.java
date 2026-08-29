@@ -9,5 +9,8 @@ package StudentView;
  * @author usuario
  */
 public class StudentView {
-    
+
+    public void mostrar() {
+        System.out.println("Vista de estudiantes");
+    }
 }
